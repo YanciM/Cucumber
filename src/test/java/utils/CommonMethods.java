@@ -18,7 +18,6 @@ import java.util.concurrent.TimeUnit;
 public class CommonMethods {
     public static WebDriver driver;
 
-
     public static void setUp(){
         ConfigReader.readProperties(Constants.CONFIGURATION_FILEPATH);
         switch (ConfigReader.getPropertyValue("browser")){
