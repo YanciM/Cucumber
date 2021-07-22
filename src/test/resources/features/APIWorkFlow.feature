@@ -21,5 +21,5 @@ Feature: Syntax HRMS API Workflow
     And the retrieved employee ID "employee.employee_id" matches the globally stored employee ID
     And the retrieved data at "employee" matches the data used to create an employee with employee ID "employee.employee_id"
       | emp_firstname | emp_middle_name | emp_lastname | emp_birthday | emp_gender | emp_job_title    | emp_status |
-      | Emma          | Rose            | Thomas       | 1993-10-29   | Female     | Cloud Consultant | Employee   |
+      | Emma          | Rose            | Thomas       | 1993-07-10   | Female     | Cloud Consultant | Employee   |
 
